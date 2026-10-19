@@ -1,0 +1,56 @@
+{
+  "terrain": {
+    "bounds": [
+      [
+        11.123736282934775,
+        75.53471312578266
+      ],
+      [
+        11.806474549952679,
+        76.14808280177947
+      ]
+    ],
+    "image_url": "assets/terrain-relief.webp",
+    "source_grid_m": 30,
+    "display_grid_m": 30.0,
+    "source": {
+      "raster": "improved_context/terrain/hillshade_utm43.tif",
+      "crs": "EPSG:32643",
+      "warped_crs": "EPSG:3857",
+      "attribution": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+      "source_metadata": "improved_context/terrain/terrain_metadata.json"
+    },
+    "limits": [
+      "Cartographic DSM hillshade context only; not bare-earth terrain or a hydrological model.",
+      "Strict district mask; alpha 0 is nodata. Does not improve ~90 m flood footprint or establish house safety."
+    ]
+  },
+  "waterways": {
+    "file": "data/waterways.geojson",
+    "feature_count": 8364,
+    "source": {
+      "file": "improved_context/waterways/waterways_context.geojson",
+      "license": "OpenStreetMap data © OpenStreetMap contributors, available under the Open Data Commons Open Database License (ODbL).",
+      "metadata": "improved_context/waterways/waterways_metadata.json",
+      "simplification": "10 m tolerance in EPSG:32643 for context display; output EPSG:4326 rounded to 6 decimals"
+    },
+    "limits": [
+      "OSM mapped centerlines are not drainage capacity, culvert conveyance, bankfull width, or a hydraulic model."
+    ]
+  },
+  "flood_grid_m_approx": 90,
+  "source_notes": [
+    "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+    "OpenStreetMap data © OpenStreetMap contributors, available under the Open Data Commons Open Database License (ODbL).",
+    "Terrain and waterways were prepared from verified local inputs; no external acquisition was performed.",
+    "All 8,364 supplied waterways are retained; no feature rejection was needed.",
+    "Leaflet imageOverlay bounds are WGS84 [[south, west], [north, east]] while image pixels are warped to EPSG:3857."
+  ],
+  "source_hashes_sha256": {
+    "improved_context/terrain/hillshade_utm43.tif": "5a6b37f91646cbfc7c4b49c9a486f393415113ed2ffdb2ac97943f77d80a1918",
+    "improved_context/terrain/terrain_metadata.json": "8879b10e4bd80d5a6188eb4972c772d89cf8f0bd22269f3c9a5ee7c3fb8b85af",
+    "improved_context/waterways/waterways_context.geojson": "2d0d6bb9d1c78eaeb4d63da5116bffb0ae515d9c396a3b39132219b05024de40",
+    "improved_context/waterways/waterways_metadata.json": "2fe662d0495457e8d9aa053dc05441f52881a4f9c91843de0dd4818d334d7eba",
+    "Kozhikode_boundary.geojson": "ddc6035785d38ea06817e9b387d2ec35419536d7edef27eb78656e0ac0e05335"
+  }
+}

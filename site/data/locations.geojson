@@ -1,0 +1,2034 @@
+{
+  "type": "FeatureCollection",
+  "name": "Kozhikode approximate local-body area centres",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "Q28173697",
+      "properties": {
+        "id": "Q28173697",
+        "name": "Kozhikode",
+        "type": "corporation",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.79959654,
+        "latitude": 11.26445342,
+        "easting_epsg32643": 587274.844,
+        "northing_epsg32643": 1245339.391,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.79959654,
+          11.26445342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13110103",
+      "properties": {
+        "id": "Q13110103",
+        "name": "Arikkulam",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.72574311,
+        "latitude": 11.50322573,
+        "easting_epsg32643": 579147.407,
+        "northing_epsg32643": 1271722.238,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.72574311,
+          11.50322573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13109913",
+      "properties": {
+        "id": "Q13109913",
+        "name": "Atholi",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.76471889,
+        "latitude": 11.40236294,
+        "easting_epsg32643": 583427.78,
+        "northing_epsg32643": 1260579.56,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.76471889,
+          11.40236294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q4830923",
+      "properties": {
+        "id": "Q4830923",
+        "name": "Ayancheri",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "representative_point_inside_geometry",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.68074292,
+        "latitude": 11.62999696,
+        "easting_epsg32643": 574206.201,
+        "northing_epsg32643": 1285728.829,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.68074292,
+          11.62999696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16135476",
+      "properties": {
+        "id": "Q16135476",
+        "name": "Azhiyur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.55243577,
+        "latitude": 11.68301408,
+        "easting_epsg32643": 560207.868,
+        "northing_epsg32643": 1291561.124,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.55243577,
+          11.68301408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16137572",
+      "properties": {
+        "id": "Q16137572",
+        "name": "Balussery",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.8030119,
+        "latitude": 11.44339766,
+        "easting_epsg32643": 587593.046,
+        "northing_epsg32643": 1265128.629,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8030119,
+          11.44339766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q20578300",
+      "properties": {
+        "id": "Q20578300",
+        "name": "Chakkittapara",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.85177451,
+        "latitude": 11.61350667,
+        "easting_epsg32643": 592856.561,
+        "northing_epsg32643": 1283955.497,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.85177451,
+          11.61350667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111872",
+      "properties": {
+        "id": "Q13111872",
+        "name": "Changaroth",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.76962956,
+        "latitude": 11.61434817,
+        "easting_epsg32643": 583900.717,
+        "northing_epsg32643": 1284023.043,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.76962956,
+          11.61434817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111911",
+      "properties": {
+        "id": "Q13111911",
+        "name": "Chathamangalam",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.94066551,
+        "latitude": 11.30535898,
+        "easting_epsg32643": 602658.98,
+        "northing_epsg32643": 1249908.674,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.94066551,
+          11.30535898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16133839",
+      "properties": {
+        "id": "Q16133839",
+        "name": "Chekkiad",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.66353488,
+        "latitude": 11.74524299,
+        "easting_epsg32643": 572300.415,
+        "northing_epsg32643": 1298468.582,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.66353488,
+          11.74524299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16134423",
+      "properties": {
+        "id": "Q16134423",
+        "name": "Chelannur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.80884846,
+        "latitude": 11.35595869,
+        "easting_epsg32643": 588256.722,
+        "northing_epsg32643": 1255461.087,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.80884846,
+          11.35595869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16134375",
+      "properties": {
+        "id": "Q16134375",
+        "name": "Chemanchery",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.73279588,
+        "latitude": 11.38830652,
+        "easting_epsg32643": 579948.855,
+        "northing_epsg32643": 1259016.177,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.73279588,
+          11.38830652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q5091369",
+      "properties": {
+        "id": "Q5091369",
+        "name": "Chengottukavu",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.72017422,
+        "latitude": 11.4231958,
+        "easting_epsg32643": 578562.159,
+        "northing_epsg32643": 1262870.84,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.72017422,
+          11.4231958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q5105199",
+      "properties": {
+        "id": "Q5105199",
+        "name": "Cherode",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.58839455,
+        "latitude": 11.62861392,
+        "easting_epsg32643": 564139.483,
+        "northing_epsg32643": 1285553.415,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.58839455,
+          11.62861392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13479531",
+      "properties": {
+        "id": "Q13479531",
+        "name": "Cheruvannur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.70469104,
+        "latitude": 11.5730152,
+        "easting_epsg32643": 576832.435,
+        "northing_epsg32643": 1279433.996,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.70469104,
+          11.5730152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q20574729",
+      "properties": {
+        "id": "Q20574729",
+        "name": "Edacheri",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.61029033,
+        "latitude": 11.68834604,
+        "easting_epsg32643": 566512.154,
+        "northing_epsg32643": 1292163.696,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.61029033,
+          11.68834604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q99825450",
+      "properties": {
+        "id": "Q99825450",
+        "name": "Eramala",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.59686362,
+        "latitude": 11.66046724,
+        "easting_epsg32643": 565055.301,
+        "northing_epsg32643": 1289077.706,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.59686362,
+          11.66046724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13110905",
+      "properties": {
+        "id": "Q13110905",
+        "name": "Kadalundi",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.83080515,
+        "latitude": 11.14767992,
+        "easting_epsg32643": 590717.83,
+        "northing_epsg32643": 1232435.72,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.83080515,
+          11.14767992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13110870",
+      "properties": {
+        "id": "Q13110870",
+        "name": "Kakkodi",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.79650963,
+        "latitude": 11.32960549,
+        "easting_epsg32643": 586918.27,
+        "northing_epsg32643": 1252543.159,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.79650963,
+          11.32960549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111105",
+      "properties": {
+        "id": "Q13111105",
+        "name": "Kakkur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.82858457,
+        "latitude": 11.38844842,
+        "easting_epsg32643": 590400.101,
+        "northing_epsg32643": 1259059.989,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.82858457,
+          11.38844842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13564480",
+      "properties": {
+        "id": "Q13564480",
+        "name": "Karassery",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 76.0172139,
+        "latitude": 11.31329567,
+        "easting_epsg32643": 611010.773,
+        "northing_epsg32643": 1250814.372,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.0172139,
+          11.31329567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13110925",
+      "properties": {
+        "id": "Q13110925",
+        "name": "Kattippara",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.92998942,
+        "latitude": 11.47995872,
+        "easting_epsg32643": 601431.844,
+        "northing_epsg32643": 1269213.387,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.92998942,
+          11.47995872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q6379238",
+      "properties": {
+        "id": "Q6379238",
+        "name": "Kavilumpara",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.82485557,
+        "latitude": 11.69329206,
+        "easting_epsg32643": 589896.131,
+        "northing_epsg32643": 1292769.995,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.82485557,
+          11.69329206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q6380415",
+      "properties": {
+        "id": "Q6380415",
+        "name": "Kayakkody",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.75065261,
+        "latitude": 11.69002257,
+        "easting_epsg32643": 581809.7,
+        "northing_epsg32643": 1292385.903,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.75065261,
+          11.69002257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111164",
+      "properties": {
+        "id": "Q13111164",
+        "name": "Kayanna",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.81588983,
+        "latitude": 11.52731846,
+        "easting_epsg32643": 588971.551,
+        "northing_epsg32643": 1274412.904,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.81588983,
+          11.52731846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16135624",
+      "properties": {
+        "id": "Q16135624",
+        "name": "Keezhariyur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.69133553,
+        "latitude": 11.49343965,
+        "easting_epsg32643": 575397.448,
+        "northing_epsg32643": 1270630.822,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.69133553,
+          11.49343965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111264",
+      "properties": {
+        "id": "Q13111264",
+        "name": "Kizhakkoth",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.89670522,
+        "latitude": 11.38783197,
+        "easting_epsg32643": 597832.942,
+        "northing_epsg32643": 1259013.917,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.89670522,
+          11.38783197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111664",
+      "properties": {
+        "id": "Q13111664",
+        "name": "Kodanchery",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 76.03784278,
+        "latitude": 11.45186999,
+        "easting_epsg32643": 613207.482,
+        "northing_epsg32643": 1266147.247,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.03784278,
+          11.45186999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111606",
+      "properties": {
+        "id": "Q13111606",
+        "name": "Kodiyathur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 76.02164877,
+        "latitude": 11.28046207,
+        "easting_epsg32643": 611507.493,
+        "northing_epsg32643": 1247185.027,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.02164877,
+          11.28046207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111397",
+      "properties": {
+        "id": "Q13111397",
+        "name": "Koodaranhi",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 76.07350838,
+        "latitude": 11.35403175,
+        "easting_epsg32643": 617138.374,
+        "northing_epsg32643": 1255341.407,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.07350838,
+          11.35403175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111416",
+      "properties": {
+        "id": "Q13111416",
+        "name": "Koorachundu",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.90338417,
+        "latitude": 11.55097217,
+        "easting_epsg32643": 598505.122,
+        "northing_epsg32643": 1277057.313,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.90338417,
+          11.55097217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111404",
+      "properties": {
+        "id": "Q13111404",
+        "name": "Koothali",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.78564927,
+        "latitude": 11.57923166,
+        "easting_epsg32643": 585657.902,
+        "northing_epsg32643": 1280144.472,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.78564927,
+          11.57923166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16135523",
+      "properties": {
+        "id": "Q16135523",
+        "name": "Kottur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.80934654,
+        "latitude": 11.49255198,
+        "easting_epsg32643": 588268.808,
+        "northing_epsg32643": 1270566.248,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.80934654,
+          11.49255198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111311",
+      "properties": {
+        "id": "Q13111311",
+        "name": "Kunnamangalam",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.88720927,
+        "latitude": 11.30942745,
+        "easting_epsg32643": 596823.252,
+        "northing_epsg32643": 1250340.34,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.88720927,
+          11.30942745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16136253",
+      "properties": {
+        "id": "Q16136253",
+        "name": "Kunnummal",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.71075249,
+        "latitude": 11.6801464,
+        "easting_epsg32643": 577463.727,
+        "northing_epsg32643": 1291282.525,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.71075249,
+          11.6801464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16136513",
+      "properties": {
+        "id": "Q16136513",
+        "name": "Kuruvattoor",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.84482649,
+        "latitude": 11.32021464,
+        "easting_epsg32643": 592194.148,
+        "northing_epsg32643": 1251519.518,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.84482649,
+          11.32021464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q20576738",
+      "properties": {
+        "id": "Q20576738",
+        "name": "Kuttiadi",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.7302326,
+        "latitude": 11.65344871,
+        "easting_epsg32643": 579594.546,
+        "northing_epsg32643": 1288335.6,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7302326,
+          11.65344871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q25585324",
+      "properties": {
+        "id": "Q25585324",
+        "name": "Madavoor",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.86553523,
+        "latitude": 11.34923209,
+        "easting_epsg32643": 594444.68,
+        "northing_epsg32643": 1254735.025,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.86553523,
+          11.34923209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q6750294",
+      "properties": {
+        "id": "Q6750294",
+        "name": "Maniyur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.6463928,
+        "latitude": 11.55818332,
+        "easting_epsg32643": 570479.63,
+        "northing_epsg32643": 1277778.833,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.6463928,
+          11.55818332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q6778025",
+      "properties": {
+        "id": "Q6778025",
+        "name": "Maruthonkara",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.79537588,
+        "latitude": 11.64847805,
+        "easting_epsg32643": 586697.037,
+        "northing_epsg32643": 1287805.015,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.79537588,
+          11.64847805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13114047",
+      "properties": {
+        "id": "Q13114047",
+        "name": "Mavoor",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.93532219,
+        "latitude": 11.26478058,
+        "easting_epsg32643": 602090.128,
+        "northing_epsg32643": 1245419.39,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.93532219,
+          11.26478058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13114225",
+      "properties": {
+        "id": "Q13114225",
+        "name": "Meppayur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.70401325,
+        "latitude": 11.53084485,
+        "easting_epsg32643": 576770.007,
+        "northing_epsg32643": 1274770.52,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.70401325,
+          11.53084485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q20582975",
+      "properties": {
+        "id": "Q20582975",
+        "name": "Moodadi",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.65247036,
+        "latitude": 11.48177936,
+        "easting_epsg32643": 571161.54,
+        "northing_epsg32643": 1269331.514,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.65247036,
+          11.48177936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13112854",
+      "properties": {
+        "id": "Q13112854",
+        "name": "Nadapuram",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.66752172,
+        "latitude": 11.68513904,
+        "easting_epsg32643": 572750.572,
+        "northing_epsg32643": 1291823.15,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.66752172,
+          11.68513904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13112787",
+      "properties": {
+        "id": "Q13112787",
+        "name": "Naduvannur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.75763342,
+        "latitude": 11.4914847,
+        "easting_epsg32643": 582628.877,
+        "northing_epsg32643": 1270432.858,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.75763342,
+          11.4914847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13112804",
+      "properties": {
+        "id": "Q13112804",
+        "name": "Nanminda",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.81708195,
+        "latitude": 11.41518525,
+        "easting_epsg32643": 589136.729,
+        "northing_epsg32643": 1262013.092,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.81708195,
+          11.41518525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16134969",
+      "properties": {
+        "id": "Q16134969",
+        "name": "Narikunni",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.86480439,
+        "latitude": 11.38293951,
+        "easting_epsg32643": 594353.839,
+        "northing_epsg32643": 1258462.319,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.86480439,
+          11.38293951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q15261016",
+      "properties": {
+        "id": "Q15261016",
+        "name": "Narippatta",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.7474259,
+        "latitude": 11.73398605,
+        "easting_epsg32643": 581445.145,
+        "northing_epsg32643": 1297246.651,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7474259,
+          11.73398605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13113008",
+      "properties": {
+        "id": "Q13113008",
+        "name": "Nochad",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.75608005,
+        "latitude": 11.53541885,
+        "easting_epsg32643": 582446.657,
+        "northing_epsg32643": 1275290.79,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.75608005,
+          11.53541885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q2738739",
+      "properties": {
+        "id": "Q2738739",
+        "name": "Olavanna",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.84279476,
+        "latitude": 11.22700222,
+        "easting_epsg32643": 592002.059,
+        "northing_epsg32643": 1241211.112,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.84279476,
+          11.22700222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q3783820",
+      "properties": {
+        "id": "Q3783820",
+        "name": "Omassery",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.95774927,
+        "latitude": 11.37811346,
+        "easting_epsg32643": 604497.115,
+        "northing_epsg32643": 1257960.455,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.95774927,
+          11.37811346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16136150",
+      "properties": {
+        "id": "Q16136150",
+        "name": "Onchiyam",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.5726681,
+        "latitude": 11.65111295,
+        "easting_epsg32643": 562420.11,
+        "northing_epsg32643": 1288037.863,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5726681,
+          11.65111295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q7130027",
+      "properties": {
+        "id": "Q7130027",
+        "name": "Panangad",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.86009903,
+        "latitude": 11.48257813,
+        "easting_epsg32643": 593807.639,
+        "northing_epsg32643": 1269479.353,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.86009903,
+          11.48257813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13113474",
+      "properties": {
+        "id": "Q13113474",
+        "name": "Perambra",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.75485924,
+        "latitude": 11.56819466,
+        "easting_epsg32643": 582303.964,
+        "northing_epsg32643": 1278914.902,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.75485924,
+          11.56819466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16136092",
+      "properties": {
+        "id": "Q16136092",
+        "name": "Perumanna",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.87568055,
+        "latitude": 11.24284781,
+        "easting_epsg32643": 595587.009,
+        "northing_epsg32643": 1242973.868,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.87568055,
+          11.24284781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16136191",
+      "properties": {
+        "id": "Q16136191",
+        "name": "Peruvayal",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.88626076,
+        "latitude": 11.26818093,
+        "easting_epsg32643": 596733.544,
+        "northing_epsg32643": 1245778.785,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.88626076,
+          11.26818093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q7260813",
+      "properties": {
+        "id": "Q7260813",
+        "name": "Purameri",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.66318479,
+        "latitude": 11.66082403,
+        "easting_epsg32643": 572284.184,
+        "northing_epsg32643": 1289133.227,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.66318479,
+          11.66082403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16135103",
+      "properties": {
+        "id": "Q16135103",
+        "name": "Puthuppadi",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.98514443,
+        "latitude": 11.4889625,
+        "easting_epsg32643": 607444.601,
+        "northing_epsg32643": 1270229.122,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.98514443,
+          11.4889625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q7709502",
+      "properties": {
+        "id": "Q7709502",
+        "name": "Thalakulathur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.76880415,
+        "latitude": 11.3652697,
+        "easting_epsg32643": 583884.354,
+        "northing_epsg32643": 1256478.874,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.76880415,
+          11.3652697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13112448",
+      "properties": {
+        "id": "Q13112448",
+        "name": "Thamarassery",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.93879364,
+        "latitude": 11.42206427,
+        "easting_epsg32643": 602413.008,
+        "northing_epsg32643": 1262814.098,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.93879364,
+          11.42206427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13112462",
+      "properties": {
+        "id": "Q13112462",
+        "name": "Thikkodi",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.63622232,
+        "latitude": 11.50096154,
+        "easting_epsg32643": 569384.689,
+        "northing_epsg32643": 1271448.72,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.63622232,
+          11.50096154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13112505",
+      "properties": {
+        "id": "Q13112505",
+        "name": "Thiruvallur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.66587471,
+        "latitude": 11.60015817,
+        "easting_epsg32643": 572593.104,
+        "northing_epsg32643": 1282425.357,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.66587471,
+          11.60015817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16137324",
+      "properties": {
+        "id": "Q16137324",
+        "name": "Thiruvambadi",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "representative_point_inside_geometry",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 76.04467239,
+        "latitude": 11.39688794,
+        "easting_epsg32643": 613974.493,
+        "northing_epsg32643": 1260069.434,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.04467239,
+          11.39688794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16137575",
+      "properties": {
+        "id": "Q16137575",
+        "name": "Thurayur",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.66896445,
+        "latitude": 11.52431595,
+        "easting_epsg32643": 572949.587,
+        "northing_epsg32643": 1274039.39,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.66896445,
+          11.52431595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13112574",
+      "properties": {
+        "id": "Q13112574",
+        "name": "Tuneri",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.63107547,
+        "latitude": 11.70366865,
+        "easting_epsg32643": 568773.71,
+        "northing_epsg32643": 1293863.071,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.63107547,
+          11.70366865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16134363",
+      "properties": {
+        "id": "Q16134363",
+        "name": "Ulliyeri Grama Panchayat",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.75608006,
+        "latitude": 11.44712351,
+        "easting_epsg32643": 582472.328,
+        "northing_epsg32643": 1265526.824,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.75608006,
+          11.44712351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13110491",
+      "properties": {
+        "id": "Q13110491",
+        "name": "Unnikulam",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.87855057,
+        "latitude": 11.43916063,
+        "easting_epsg32643": 595834.851,
+        "northing_epsg32643": 1264684.067,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.87855057,
+          11.43916063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16135882",
+      "properties": {
+        "id": "Q16135882",
+        "name": "Valayam",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.68698157,
+        "latitude": 11.74040424,
+        "easting_epsg32643": 574856.641,
+        "northing_epsg32643": 1297939.627,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.68698157,
+          11.74040424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16136148",
+      "properties": {
+        "id": "Q16136148",
+        "name": "Vanimal",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.73504081,
+        "latitude": 11.7688551,
+        "easting_epsg32643": 580085.428,
+        "northing_epsg32643": 1301099.076,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.73504081,
+          11.7688551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13114854",
+      "properties": {
+        "id": "Q13114854",
+        "name": "Velom",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.71797591,
+        "latitude": 11.6218667,
+        "easting_epsg32643": 578267.344,
+        "northing_epsg32643": 1284839.748,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.71797591,
+          11.6218667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13114719",
+      "properties": {
+        "id": "Q13114719",
+        "name": "Villiappally",
+        "type": "gram_panchayat",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.62955855,
+        "latitude": 11.61012561,
+        "easting_epsg32643": 568631.359,
+        "northing_epsg32643": 1283518.568,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.62955855,
+          11.61012561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13113570",
+      "properties": {
+        "id": "Q13113570",
+        "name": "Feroke",
+        "type": "municipality",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.83632147,
+        "latitude": 11.17019562,
+        "easting_epsg32643": 591313.177,
+        "northing_epsg32643": 1234927.258,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.83632147,
+          11.17019562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111608",
+      "properties": {
+        "id": "Q13111608",
+        "name": "Koduvally",
+        "type": "municipality",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.91997974,
+        "latitude": 11.36691179,
+        "easting_epsg32643": 600379.783,
+        "northing_epsg32643": 1256708.378,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.91997974,
+          11.36691179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13111636",
+      "properties": {
+        "id": "Q13111636",
+        "name": "Koyilandy",
+        "type": "municipality",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.70256587,
+        "latitude": 11.45923501,
+        "easting_epsg32643": 576631.52,
+        "northing_epsg32643": 1266851.385,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.70256587,
+          11.45923501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13114107",
+      "properties": {
+        "id": "Q13114107",
+        "name": "Mukkam",
+        "type": "municipality",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.97807517,
+        "latitude": 11.33682267,
+        "easting_epsg32643": 606730.362,
+        "northing_epsg32643": 1253401.578,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.97807517,
+          11.33682267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q16137491",
+      "properties": {
+        "id": "Q16137491",
+        "name": "Payyoli",
+        "type": "municipality",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.61572977,
+        "latitude": 11.53718017,
+        "easting_epsg32643": 567141.152,
+        "northing_epsg32643": 1275448.916,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.61572977,
+          11.53718017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13114361",
+      "properties": {
+        "id": "Q13114361",
+        "name": "Ramanattukara",
+        "type": "municipality",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.85828534,
+        "latitude": 11.1885874,
+        "easting_epsg32643": 593705.545,
+        "northing_epsg32643": 1236967.954,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.85828534,
+          11.1885874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Q13114484",
+      "properties": {
+        "id": "Q13114484",
+        "name": "Vatakara",
+        "type": "municipality",
+        "label": "Approximate area centre — not the local-body office",
+        "location_kind": "approximate_area_centre",
+        "method": "centroid",
+        "coverage_status": "point_inside_source_polygon",
+        "source": "Existing reusable OSM-derived local-body boundary polygon; no office coordinates used",
+        "longitude": 75.59920554,
+        "latitude": 11.59343567,
+        "easting_epsg32643": 565326.191,
+        "northing_epsg32643": 1281665.844,
+        "within_own_polygon": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.59920554,
+          11.59343567
+        ]
+      }
+    }
+  ]
+}
