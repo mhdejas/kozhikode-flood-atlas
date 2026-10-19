@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7faf7" />
+    <meta
+      name="description"
+      content="Explore Kozhikode's modelled flood exposure. Compare three river-flood scenarios with mapped schools, health records and major roads. Read the sources and limits alongside the map."
+    />
+    <meta property="og:title" content="Kozhikode Flood Atlas" />
+    <meta
+      property="og:description"
+      content="A closer look at flood exposure in Kozhikode. An independent screening map—not a forecast or a house-level safety check."
+    />
+    <meta property="og:type" content="website" />
+    <title>Kozhikode Flood Atlas — explore the map</title>
+    <link rel="icon" type="image/svg+xml" href="assets/district-mark.svg" />
+    <link
+      rel="preload"
+      href="vendor/public-sans-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="vendor/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="vendor/leaflet.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to the map and controls</a>
+    <a class="skip-link skip-second" href="#comparison">Skip the map; read the numbers</a>
+    <header class="site-header">
+      <a class="brand" href="#main" aria-label="Kozhikode Flood Atlas home">
+        <img src="assets/district-mark.svg" alt="" width="32" height="40" />
+        <span><strong translate="no">Kozhikode</strong><span>Flood Atlas</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#comparison">Compare</a><a href="#local-bodies">Local bodies</a
+        ><a href="#sources">Sources &amp; limits</a>
+      </nav>
+      <span class="header-note">Kerala, India</span>
+    </header>
+    <main id="main" tabindex="-1">
+      <noscript
+        ><p class="no-script">
+          This map needs JavaScript to load its geographic data. You can still read the sources and
+          limitations below.
+        </p></noscript
+      >
+      <section class="explorer-grid" aria-labelledby="page-title">
+        <div class="explorer-intro">
+          <h1 id="page-title">
+            Kozhikode’s<br />
+            flood exposure.
+          </h1>
+          <p class="intro-copy">
+            See where modelled river floods overlap mapped schools, health records and major roads.
+          </p>
+          <div class="model-note">
+            <span class="status-dot" aria-hidden="true"></span>A model, not a live flood map
+          </div>
+          <fieldset class="scenario-picker">
+            <legend>Choose a flood scenario</legend>
+            <div class="scenario-buttons" style="--scenario-index: 2">
+              <span class="scenario-highlight" aria-hidden="true"></span>
+              <button type="button" data-year="10" aria-pressed="false">10-year</button>
+              <button type="button" data-year="25" aria-pressed="false">25-year</button>
+              <button type="button" data-year="50" aria-pressed="true" class="active">
+                50-year
+              </button>
+            </div>
+            <p id="scenario-chance" class="helper">
+              2% chance of being exceeded in any year—not once every 50 years.
+            </p>
+          </fieldset>
+        </div>
+        <div class="explorer-controls">
+          <div class="area-control">
+            <label for="local-select">Look at a local body</label>
+            <select id="local-select" name="local-area" autocomplete="off">
+              <option value="">Whole district</option>
+            </select>
+            <p class="helper">
+              The totals follow your selection. Nearby features stay on the map for context.
+            </p>
+          </div>
+          <details class="layer-details" open>
+            <summary>
+              What’s on the map <span class="disclosure-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="layer-grid">
+              <label class="layer-option"
+                ><input id="layer-model" type="checkbox" checked /><span
+                  class="key key-flood"
+                  aria-hidden="true"
+                ></span
+                ><span>Flood footprint</span></label
+              >
+              <label class="layer-option"
+                ><input id="layer-schools" type="checkbox" checked /><span
+                  class="key key-school"
+                  aria-hidden="true"
+                ></span
+                ><span>Schools</span></label
+              >
+              <label class="layer-option"
+                ><input id="layer-hospitals" type="checkbox" checked /><span
+                  class="key key-hospital"
+                  aria-hidden="true"
+                ></span
+                ><span>Health facilities</span></label
+              >
+              <label class="layer-option"
+                ><input id="layer-roads" type="checkbox" checked /><span
+                  class="key key-road"
+                  aria-hidden="true"
+                ></span
+                ><span>Major roads</span></label
+              >
+              <label class="layer-option"
+                ><input id="layer-settlements" type="checkbox" checked /><span
+                  class="key key-settlement"
+                  aria-hidden="true"
+                ></span
+                ><span>Place names</span></label
+              >
+              <label class="layer-option"
+                ><input id="layer-local" type="checkbox" /><span
+                  class="key key-boundary"
+                  aria-hidden="true"
+                ></span
+                ><span>Local boundaries</span></label
+              >
+              <label class="layer-option"
+                ><input id="layer-waterways" type="checkbox" checked /><span
+                  class="key key-waterway"
+                  aria-hidden="true"
+                ></span
+                ><span>Mapped waterways</span></label
+              >
+              <label class="layer-option"
+                ><input id="layer-terrain" type="checkbox" checked /><span
+                  class="key key-relief"
+                  aria-hidden="true"
+                ></span
+                ><span>Surface relief</span></label
+              >
+              <label class="layer-option"
+                ><input id="layer-locations" type="checkbox" checked /><span
+                  class="key key-location"
+                  aria-hidden="true"
+                ></span
+                ><span>Local-body area centres</span></label
+              >
+            </div>
+            <div class="health-filter">
+              <label for="health-type">Health types shown</label>
+              <select
+                id="health-type"
+                name="health-type"
+                autocomplete="off"
+                aria-describedby="health-filter-note"
+              >
+                <option value="">All included health types</option>
+              </select>
+              <p id="health-filter-note" class="helper">
+                Map filter only. Counts still include every health type in this inventory. Types
+                follow OSM tags, not independent verification.
+              </p>
+            </div>
+            <label class="overlap-option"
+              ><input id="only-overlap" type="checkbox" checked /><span
+                >Show only overlapping school and health records</span
+              ></label
+            >
+            <label class="overlap-option street-option"
+              ><input id="layer-street" type="checkbox" /><span
+                >Street basemap <small>Loads OpenStreetMap tiles</small></span
+              ></label
+            >
+            <p class="helper">Layer switches change the display, not the counts.</p>
+            <p id="context-status" class="helper" role="status" aria-live="polite">
+              Relief and waterways load separately. Context only—not a finer flood model.
+            </p>
+            <label id="observed-control" class="layer-option" hidden
+              ><input id="layer-observed" type="checkbox" /><span id="observed-label"
+                >Observed event extent</span
+              ></label
+            >
+            <label id="coverage-control" class="layer-option" hidden
+              ><input id="layer-coverage" type="checkbox" /><span
+                >Observed-data coverage</span
+              ></label
+            >
+          </details>
+        </div>
+        <aside class="reading-note" aria-label="Important map limitation">
+          <p>
+            <strong>About 90 m flood cells.</strong> Finer relief and mapped waterways help you read
+            the district; they do not make the flood model more detailed. This cannot tell you
+            whether a house is safe.
+          </p>
+        </aside>
+        <section class="map-panel" aria-label="Interactive map and selected-area totals">
+          <div class="map-toolbar">
+            <div>
+              <span class="map-kicker">River-flood model</span>
+              <p id="map-status" role="status" aria-live="polite">Loading source layers…</p>
+            </div>
+            <div class="map-actions">
+              <button
+                id="reset-map"
+                type="button"
+                class="text-button"
+                title="Return to the whole district"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M8 3H3v5M16 3h5v5M21 16v5h-5M8 21H3v-5M3 3l6 6m12-6-6 6m6 12-6-6M3 21l6-6"
+                  /></svg
+                ><span>District view</span>
+              </button>
+              <button
+                id="copy-view"
+                type="button"
+                class="icon-button"
+                aria-label="Copy a link to this map view"
+                title="Copy a link to this view"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="m10 13 4-4M9 16l-2 2a4 4 0 0 1-6-6l5-5a4 4 0 0 1 6 0m0 1 2-2a4 4 0 0 1 6 6l-5 5a4 4 0 0 1-6 0"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="map-frame">
+            <div
+              id="map"
+              role="region"
+              aria-label="Interactive Kozhikode district flood exposure map"
+            ></div>
+            <div class="north-marker" aria-hidden="true">
+              <span>N</span
+              ><svg viewBox="0 0 20 32">
+                <path d="m10 2 7 23-7-5-7 5z" />
+                <path d="M10 2v18" />
+              </svg>
+            </div>
+            <span class="sea-label" aria-hidden="true">ARABIAN<br />SEA</span>
+            <button id="unlock-map" type="button" class="map-unlock" aria-pressed="false">
+              Enable map dragging
+            </button>
+            <div id="map-loading" class="map-loading" role="status" aria-live="polite">
+              <img src="assets/district-mark.svg" width="40" height="52" alt="" />
+              <strong>Putting the district on the map</strong>
+              <p id="load-message">Loading the model and mapped records…</p>
+              <label class="visually-hidden" for="load-progress">Source files loaded</label
+              ><progress id="load-progress" max="100" value="0">0%</progress>
+              <button id="retry-load" class="button button-dark" type="button" hidden>
+                Try loading again
+              </button>
+            </div>
+          </div>
+          <div class="map-legend" aria-label="Map legend">
+            <span><i class="key key-flood" aria-hidden="true"></i>Modelled footprint</span
+            ><span><i class="key key-school" aria-hidden="true"></i>School</span
+            ><span><i class="key key-hospital" aria-hidden="true"></i>Health records</span
+            ><span><i class="key key-road" aria-hidden="true"></i>Road overlap</span
+            ><span><i class="key key-waterway" aria-hidden="true"></i>Mapped waterway</span> ><span
+              ><i class="key key-location" aria-hidden="true"></i>Gram panchayat area centre</span
+            >
+            ><span
+              ><i class="key key-location key-location-municipality" aria-hidden="true"></i
+              >Municipality area centre</span
+            >
+            ><span
+              ><i class="key key-location key-location-corporation" aria-hidden="true"></i
+              >Corporation area centre</span
+            >
+          </div>
+          <div class="totals-heading">
+            <span id="scope-name">Whole district</span
+            ><span>Mapped overlaps, not confirmed impacts</span>
+          </div>
+          <dl id="stats" class="exposure-totals" aria-live="polite" aria-atomic="true">
+            <div>
+              <dt><span class="key key-school" aria-hidden="true"></span>School records</dt>
+              <dd id="school-count">—</dd>
+              <small id="school-total">Loading mapped records…</small>
+            </div>
+            <div>
+              <dt>
+                <span class="key key-hospital" aria-hidden="true"></span>Health facility records
+              </dt>
+              <dd id="hospital-count">—</dd>
+              <small id="hospital-total">Loading mapped records…</small>
+            </div>
+            <div>
+              <dt><span class="key key-road" aria-hidden="true"></span>Major-road length</dt>
+              <dd id="road-count">—</dd>
+              <small id="road-total">Loading mapped network…</small>
+            </div>
+          </dl>
+          <p class="map-footnote">
+            Outside the blue footprint does not mean safe. Other flood types and unmapped drainage
+            may not be represented.
+          </p>
+          <p id="location-coverage" class="map-footnote" role="status" aria-live="polite">
+            Loading local-body centre coverage…
+          </p>
+          <p id="load-error" class="error-message" role="alert" hidden></p>
+        </section>
+      </section>
+      <section
+        id="comparison"
+        class="content-section comparison-section"
+        tabindex="-1"
+        aria-labelledby="comparison-title"
+      >
+        <div class="section-heading">
+          <div><h2 id="comparison-title">What changes between scenarios?</h2></div>
+          <button id="download-scenarios" class="button button-outline" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4" /></svg
+            >Download CSV
+          </button>
+        </div>
+        <p class="section-copy">
+          Each row uses the same mapped inventory and the original model grid. The highlighted row
+          is the scenario you’re viewing. These counts cover the whole district.
+        </p>
+        <div
+          class="table-scroll"
+          role="region"
+          aria-label="District scenario comparison"
+          tabindex="0"
+        >
+          <table class="comparison-table">
+            <caption class="visually-hidden">
+              District-wide overlap counts and mapped inventory totals for each modelled flood
+              scenario
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Scenario</th>
+                <th scope="col">Annual chance<br /><small>of exceedance</small></th>
+                <th scope="col">Schools<br /><small>overlap / mapped</small></th>
+                <th scope="col">Health facilities<br /><small>overlap / mapped</small></th>
+                <th scope="col">Major roads<br /><small>overlap / mapped km</small></th>
+              </tr>
+            </thead>
+            <tbody id="scenario-rows"></tbody>
+          </table>
+        </div>
+        <p class="helper">
+          A return period is a probability, not a timetable. Floods of this size can happen in
+          consecutive years. These are geometric overlaps—not reported inundation, road closures or
+          damage.
+        </p>
+      </section>
+      <section id="local-bodies" class="content-section" aria-labelledby="local-title">
+        <div class="section-heading">
+          <div><h2 id="local-title">Find your local body.</h2></div>
+          <button id="download-local" class="button button-outline" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4" /></svg
+            >All 78 rows, CSV
+          </button>
+        </div>
+        <p id="local-table-note" class="section-copy">
+          These are mapped overlaps, not a ranking of flood risk. Mapping coverage, local-body size
+          and boundary gaps affect the counts.
+        </p>
+        <div class="table-tools">
+          <div class="search-control">
+            <label for="local-search">Search by name or local-body type</label>
+            <div class="search-input">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="10" cy="10" r="6" />
+                <path d="m15 15 5 5" /></svg
+              ><input
+                id="local-search"
+                type="search"
+                name="local-body"
+                placeholder="Try Koyilandy or panchayat…"
+                autocomplete="off"
+                spellcheck="false"
+              />
+            </div>
+          </div>
+          <div class="table-state">
+            <span id="table-scenario">50-year scenario</span
+            ><span id="local-matches" role="status" aria-live="polite">Loading local bodies…</span>
+          </div>
+        </div>
+        <div class="table-scroll" role="region" aria-label="Local-body exposure table" tabindex="0">
+          <table class="local-table">
+            <caption class="visually-hidden">
+              Local-body overlaps. Sort using a column heading; select a name to highlight it on the
+              map.
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col" aria-sort="ascending">
+                  <button type="button" data-sort="name">
+                    Local body <span aria-hidden="true">↕</span>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" data-sort="type">
+                    Type <span aria-hidden="true">↕</span>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" data-sort="schools">
+                    Schools <span aria-hidden="true">↕</span><small>overlap / mapped</small>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" data-sort="hospitals">
+                    Health facilities <span aria-hidden="true">↕</span
+                    ><small>overlap / mapped</small>
+                  </button>
+                </th>
+                <th scope="col">
+                  <button type="button" data-sort="roads">
+                    Roads (km) <span aria-hidden="true">↕</span><small>overlap / mapped</small>
+                  </button>
+                </th>
+              </tr>
+            </thead>
+            <tbody id="local-rows"></tbody>
+          </table>
+        </div>
+        <div class="pagination">
+          <p id="local-warning" class="helper">
+            Community boundary snapshot; see assignment and coverage notes below.
+          </p>
+          <div>
+            <button
+              id="local-prev"
+              type="button"
+              class="button button-small"
+              aria-label="Previous page of local bodies"
+            >
+              Previous</button
+            ><span id="local-page" aria-live="polite">Page 1 of 8</span
+            ><button
+              id="local-next"
+              type="button"
+              class="button button-small"
+              aria-label="Next page of local bodies"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="sources" class="content-section source-section" aria-labelledby="sources-title">
+        <div class="section-heading">
+          <div><h2 id="sources-title">Sources and limits.</h2></div>
+          <span class="independent-label">Independent screening project</span>
+        </div>
+        <div class="limits-grid">
+          <div>
+            <h3>The flood grid is still about 90 m.</h3>
+            <p>
+              The blue footprint comes from KSDMA’s historical flood model. Small drains, narrow
+              channels and local terrain can be missed. Enlarging it on screen does not create new
+              detail.
+            </p>
+          </div>
+          <div>
+            <h3>More context is not a new model.</h3>
+            <p>
+              The 30 m Copernicus surface model helps show relief. OSM adds 8,364 mapped waterway
+              segments. Neither changes the flood footprint or proves that the model is correct.
+            </p>
+          </div>
+          <div>
+            <h3>An overlap is a place to look closer.</h3>
+            <p>
+              A school symbol is a representative point for a mapped record; the overlap test used
+              its mapped geometry. Road crossings do not prove a bridge will flood or a route will
+              close.
+            </p>
+          </div>
+        </div>
+        <aside class="inventory-review-note" aria-label="Inventory review note">
+          <strong>Read the record review below.</strong> Source download dates are not proof that
+          every record is current. Most infrastructure records have not been independently checked.
+        </aside>
+        <details class="source-detail" open>
+          <summary>
+            Inventory review <span class="disclosure-icon" aria-hidden="true"></span>
+          </summary>
+          <div id="inventory-review" class="source-list"><p>Loading inventory review…</p></div>
+        </details>
+        <details class="source-detail">
+          <summary>
+            Where the data comes from <span class="disclosure-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="source-list">
+            <p>
+              <strong>Flood footprints.</strong>
+              <a
+                href="https://sdma.kerala.gov.in/hazard-maps/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Kerala State Disaster Management Authority</a
+              >, historical 10-, 25- and 50-year scenarios. The source model and its grid are
+              unchanged.
+            </p>
+            <p>
+              <strong>Schools, health records, major roads, places and waterways.</strong>
+              <a
+                href="https://www.openstreetmap.org/copyright"
+                target="_blank"
+                rel="noopener noreferrer"
+                >© OpenStreetMap contributors</a
+              >, ODbL. These are mapped records, not a complete or current official inventory.
+              Health types follow OSM tags and can include hospitals, clinics, centres and medical
+              practices. This is not a verified or complete health-service register.
+            </p>
+            <p>
+              <strong>Surface relief.</strong>
+              <a
+                href="https://registry.opendata.aws/copernicus-dem/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Copernicus GLO-30</a
+              >, a digital surface model, not a bare-earth drainage survey. Produced using
+              Copernicus WorldDEM-30 © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH
+              2014–2018, provided under COPERNICUS by the European Union and ESA; all rights
+              reserved.
+            </p>
+            <p>
+              <strong>District boundary.</strong>
+              <a
+                href="https://github.com/opendatakerala/kl_district"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Open Data Kerala district boundary</a
+              >. Local-body boundaries use a separate community snapshot, with checks described
+              below.
+            </p>
+            <p>
+              <strong>Map library and type.</strong>
+              <a href="https://leafletjs.com/" target="_blank" rel="noopener noreferrer">Leaflet</a>
+              and
+              <a
+                href="https://github.com/uswds/public-sans"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Public Sans</a
+              >. The page uses plain HTML, CSS and JavaScript.
+            </p>
+          </div>
+        </details>
+        <details class="source-detail">
+          <summary>
+            How the local-body numbers were assigned
+            <span class="disclosure-icon" aria-hidden="true"></span>
+          </summary>
+          <div id="local-method" class="source-list"></div>
+        </details>
+        <details class="source-detail">
+          <summary>
+            Did an observed flood boundary validate this map?
+            <span class="disclosure-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="source-list">
+            <div id="observed-status"></div>
+            <p id="observed-caution"></p>
+            <div id="observed-method"></div>
+          </div>
+        </details>
+        <p class="safety-note">
+          <strong>Please don’t use this for an emergency decision.</strong> It is not a live
+          warning, forecast, evacuation map or house-level safety check. Follow current advice from
+          local authorities.
+        </p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>Kozhikode Flood Atlas <span>— a district-level look at mapped exposure.</span></p>
+      <a href="#main">Back to the map <span aria-hidden="true">↑</span></a>
+    </footer>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  </body>
+</html>
