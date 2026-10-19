@@ -39,3 +39,16 @@ Read the QA file, source dates, excluded records and class totals. Check changed
 The current source window is recorded in `source-snapshots.json`. New downloads can differ from this release. The raw source responses, original KSDMA rasters and private deployment ownership links are not included.
 
 The optional context-preparation scripts require their separately documented terrain/waterway inputs. They do not create a new flood simulation or improve the approximately 90 m hazard grid.
+
+## Rebuild the optional relief and waterway context
+
+The website already includes these assets. To rebuild them, install the separate context dependencies and supply the original input tree:
+
+```sh
+python3 -m pip install -r scripts/requirements-context.txt
+python3 scripts/prepare_context.py --input-root /path/to/kozhikode_flood
+```
+
+`--input-root` must contain `Kozhikode_boundary.geojson` and the supplied inputs under `expansion/improved_context/terrain/` and `expansion/improved_context/waterways/`. Raw source grids are not included in this repository.
+
+By default, this command writes the four context files under `site/assets/` and `site/data/`. Its QA report goes to `tests/context_qa.generated.json`, outside the website. This rebuild covers the context assets only, not the full upstream analysis or a new flood simulation.
