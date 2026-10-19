@@ -1,0 +1,14 @@
+I’ve updated my Kozhikode flood-exposure map with a broader set of mapped health records and local-body area centres.
+
+For the KSDMA 50-year scenario, 79 mapped school records, 34 health records and 133.9 km of mapped major roads overlap the model footprint. These are geometric overlaps—not confirmed flooding, damage, closures or unsafe access.
+
+The health inventory now includes clinics, health centres and medical practices, so its count is not directly comparable with the earlier hospital-tag-only version. Most records still need independent checking; a small official-source identity sample is documented separately.
+
+The interactive map lets you switch between the 10-, 25- and 50-year scenarios, filter health types and explore 70 gram panchayat areas, seven municipalities and one corporation. The centre markers are approximate locators, not office locations.
+
+The KSDMA flood grid is still about 90 m. The 30 m surface relief and mapped waterways add context, not a finer flood simulation. This map cannot tell whether a house is safe. Smaller-road coverage is not complete.
+
+Explore: https://kozhikode-flood-exposure.western-drifter.workers.dev
+Sources: KSDMA, OpenStreetMap contributors, Open Data Kerala and Copernicus DEM. Source dates, checks and limitations are on the map.
+
+#Kozhikode #GIS #FloodExposure #Kerala #OpenData
