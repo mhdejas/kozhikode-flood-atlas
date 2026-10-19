@@ -1,0 +1,914 @@
+{
+  "analysis_crs": "EPSG:32643",
+  "boundary_valid": true,
+  "boundary_area_km2": 2348.8652496859145,
+  "input_counts": {
+    "assets_raw_elements": 3857,
+    "roads_raw_elements": 3248
+  },
+  "missing_geometry": [],
+  "repaired_geometry": [],
+  "excluded_outside": {
+    "settlement": 295,
+    "school": 664,
+    "hospital": 309,
+    "road": 1316
+  },
+  "duplicates": [
+    {
+      "removed": "way/905020798",
+      "kept": "way/430784153",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/940688952",
+      "kept": "way/800997225",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/958858617",
+      "kept": "way/46226602",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/10258905500",
+      "kept": "way/594950991",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10274850312",
+      "kept": "way/46226602",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/10603445162",
+      "kept": "way/176640500",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10656700009",
+      "kept": "way/800679976",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10683402460",
+      "kept": "way/940894051",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/3028236981",
+      "kept": "way/298458237",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/3668681273",
+      "kept": "way/365670937",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/3763514660",
+      "kept": "way/746105775",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/3906855191",
+      "kept": "node/10310101974",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/6953167238",
+      "kept": "way/742760567",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7389115156",
+      "kept": "node/1850147401",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7484908804",
+      "kept": "way/46227015",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7509719375",
+      "kept": "way/712270518",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7509758616",
+      "kept": "node/7500465109",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7518272636",
+      "kept": "node/7414122245",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7523217246",
+      "kept": "way/177858090",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7723464319",
+      "kept": "way/827275027",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/8200640456",
+      "kept": "way/881814210",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/8765333019",
+      "kept": "node/6950380212",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/8894625716",
+      "kept": "way/961553309",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/8960643185",
+      "kept": "way/835448594",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/9225658195",
+      "kept": "way/994996665",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/9483921988",
+      "kept": "way/1028703352",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/9483987368",
+      "kept": "way/1028707709",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/9484030717",
+      "kept": "way/1028707779",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/9484331088",
+      "kept": "way/1028737958",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/9484371489",
+      "kept": "way/1028742211",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/9494951729",
+      "kept": "way/804790760",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/9948684189",
+      "kept": "way/801436073",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1006016767",
+      "kept": "way/1006016766",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1007058461",
+      "kept": "way/1007058460",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1007089736",
+      "kept": "way/1007089735",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1007110696",
+      "kept": "way/1007110695",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1025736295",
+      "kept": "way/1025735964",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1069569467",
+      "kept": "way/1069569466",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1069837848",
+      "kept": "way/1069837847",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1082410591",
+      "kept": "way/1082410590",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1083694671",
+      "kept": "way/1083694670",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1084171626",
+      "kept": "way/1084171625",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/1084174924",
+      "kept": "way/1084174923",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/798911579",
+      "kept": "way/798811469",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/800040313",
+      "kept": "way/799051970",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/804529193",
+      "kept": "way/362564637",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "way/809288784",
+      "kept": "way/1003004203",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "way/833963161",
+      "kept": "way/833559021",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/834105481",
+      "kept": "way/834105480",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/834105482",
+      "kept": "way/834105480",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/834105483",
+      "kept": "way/834105480",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/834105484",
+      "kept": "way/834105480",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/834105487",
+      "kept": "way/834105486",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/834105490",
+      "kept": "way/834105489",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/834105493",
+      "kept": "way/834105492",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/834105494",
+      "kept": "way/834105492",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/834105495",
+      "kept": "way/834105492",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/841008260",
+      "kept": "way/841008259",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/841008261",
+      "kept": "way/841008259",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/841008262",
+      "kept": "way/841008259",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/841008263",
+      "kept": "way/841008259",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "way/949997954",
+      "kept": "way/804111508",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "way/988101862",
+      "kept": "way/988101861",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10056316838",
+      "kept": "way/834614222",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10067111163",
+      "kept": "way/804545884",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10127530928",
+      "kept": "way/198416608",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10255050706",
+      "kept": "way/893156029",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10287022001",
+      "kept": "way/799300991",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10290783434",
+      "kept": "way/938046485",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10310029602",
+      "kept": "way/799034515",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10558844655",
+      "kept": "way/832520111",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10603477208",
+      "kept": "way/846079334",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10660412557",
+      "kept": "way/804180799",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/10683091451",
+      "kept": "way/834179145",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10683113792",
+      "kept": "way/491104781",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10684968271",
+      "kept": "way/834077566",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10691144538",
+      "kept": "way/834247263",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10692956895",
+      "kept": "way/832188170",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10696441502",
+      "kept": "way/848375994",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10696457079",
+      "kept": "way/800042494",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10696671232",
+      "kept": "way/803372065",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10696756993",
+      "kept": "way/402109954",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10705883358",
+      "kept": "way/832188144",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/10705926911",
+      "kept": "way/832146156",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/13700542610",
+      "kept": "way/1495381280",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/2997849943",
+      "kept": "way/835447760",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/3028236958",
+      "kept": "way/298458223",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/3028236978",
+      "kept": "way/600164543",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/3763514666",
+      "kept": "way/799067936",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/3763514686",
+      "kept": "way/805949025",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/418804553",
+      "kept": "way/794399104",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/430553265",
+      "kept": "way/46150507",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/4579857966",
+      "kept": "way/846459244",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/5470467825",
+      "kept": "way/840983038",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/6745252100",
+      "kept": "way/834588735",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/6754414276",
+      "kept": "way/699028412",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/6897698554",
+      "kept": "way/798722700",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/7118859223",
+      "kept": "way/761926504",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7119206904",
+      "kept": "node/10113638503",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7119433633",
+      "kept": "way/761926504",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7388547994",
+      "kept": "way/1083830403",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7484908893",
+      "kept": "way/804661820",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/7510260854",
+      "kept": "way/802878743",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7511679933",
+      "kept": "way/832471673",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/7519050317",
+      "kept": "way/895508843",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/7523217242",
+      "kept": "node/6754560925",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/775947102",
+      "kept": "way/799057731",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769202873",
+      "kept": "way/832508757",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769438087",
+      "kept": "way/832170157",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769446998",
+      "kept": "way/798722700",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/7769446999",
+      "kept": "way/594984369",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769447000",
+      "kept": "way/832508783",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769447002",
+      "kept": "way/295044355",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769447025",
+      "kept": "way/832508787",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769447039",
+      "kept": "way/832508780",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769512794",
+      "kept": "way/832178945",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769523673",
+      "kept": "way/832179839",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769595921",
+      "kept": "way/804123273",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769647949",
+      "kept": "way/833481975",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769779755",
+      "kept": "way/832495303",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/7769892400",
+      "kept": "way/832495298",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7769892404",
+      "kept": "way/832495318",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/7770030160",
+      "kept": "way/846056243",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7770030168",
+      "kept": "way/846056238",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7770030174",
+      "kept": "way/832520114",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7770534581",
+      "kept": "way/845608066",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7772125478",
+      "kept": "way/846724420",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7772148439",
+      "kept": "way/832474827",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7772166484",
+      "kept": "way/804255929",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/7777368666",
+      "kept": "way/846721502",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/8321822398",
+      "kept": "way/802995813",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/8455257098",
+      "kept": "way/965885695",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/8530960617",
+      "kept": "way/838509836",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/8948833428",
+      "kept": "way/1008636346",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/8963844559",
+      "kept": "way/296012264",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/9225658196",
+      "kept": "way/994996666",
+      "reason": "contained point/footprint, same or missing name"
+    },
+    {
+      "removed": "node/9557141417",
+      "kept": "node/728159280",
+      "reason": "same normalized name within 100 m"
+    },
+    {
+      "removed": "node/9898968276",
+      "kept": "node/7771987641",
+      "reason": "same normalized name within 100 m"
+    }
+  ],
+  "lifecycle_ambiguous_flags": [],
+  "freshness_note": "OSM retrieval metadata describes source freshness only; no physical, closure or operational validation is performed.",
+  "inventory_label_warning": "Mapped OSM hospitals/health facilities are not all actual hospitals and do not establish current operational status.",
+  "native_grid_spot_checks": [
+    {
+      "osm_id": "way/1004974374",
+      "kind": "school",
+      "native_positive_at_overlap_point": true,
+      "note": "Original positive raster-cell polygons; no resampling."
+    },
+    {
+      "osm_id": "way/1006005962",
+      "kind": "school",
+      "native_positive_at_overlap_point": true,
+      "note": "Original positive raster-cell polygons; no resampling."
+    },
+    {
+      "osm_id": "way/1007046440",
+      "kind": "school",
+      "native_positive_at_overlap_point": true,
+      "note": "Original positive raster-cell polygons; no resampling."
+    },
+    {
+      "osm_id": "way/1544752182",
+      "kind": "hospital",
+      "native_positive_at_overlap_point": true,
+      "note": "Original positive raster-cell polygons; no resampling."
+    },
+    {
+      "osm_id": "way/265076135",
+      "kind": "hospital",
+      "native_positive_at_overlap_point": true,
+      "note": "Original positive raster-cell polygons; no resampling."
+    },
+    {
+      "osm_id": "way/316012382",
+      "kind": "hospital",
+      "native_positive_at_overlap_point": true,
+      "note": "Original positive raster-cell polygons; no resampling."
+    }
+  ],
+  "local_body_multiple_matches": [],
+  "health_class_reconciliation": {
+    "screened": {
+      "hospital": 437,
+      "rehabilitation": 12,
+      "clinic": 173,
+      "doctor": 12,
+      "centre": 28
+    },
+    "before_screening": {
+      "hospital": 441,
+      "rehabilitation": 12,
+      "clinic": 173,
+      "doctor": 12,
+      "centre": 28
+    },
+    "quarantined": {
+      "hospital": 4
+    }
+  },
+  "counts_by_source_snapshot": {
+    "screened": {
+      "fresh_healthcare_tag_branch": 601,
+      "original_hospital_tag_fallback": 61,
+      "fresh_school": 1339
+    },
+    "before_screening": {
+      "fresh_healthcare_tag_branch": 605,
+      "original_hospital_tag_fallback": 61,
+      "fresh_school": 1339
+    },
+    "quarantined": {
+      "fresh_healthcare_tag_branch": 4
+    }
+  },
+  "local_body_count": 78,
+  "local_body_assignment": {
+    "facility_records": 2001,
+    "assigned": 2001,
+    "unmatched": 0,
+    "explicit_unmatched_row": true
+  },
+  "retained_asset_counts": {
+    "hospital": 662,
+    "school": 1339
+  },
+  "quarantine": {
+    "count": 4,
+    "records": [
+      {
+        "osm_id": "way/799586456",
+        "reason": "name suggests parking"
+      },
+      {
+        "osm_id": "node/7478208626",
+        "reason": "name suggests parking"
+      },
+      {
+        "osm_id": "node/7522189559",
+        "reason": "name or healthcare tag suggests veterinary/animal care"
+      },
+      {
+        "osm_id": "node/8407781158",
+        "reason": "name or healthcare tag suggests veterinary/animal care"
+      }
+    ],
+    "note": "Review quarantine for public clinical-health totals; not a verified assertion about current use or operation."
+  },
+  "major_road_ways_retained": 1932,
+  "major_road_total_km_union": 1948.0575307894483,
+  "source_files": {
+    "assets": "expanded_sources/osm_assets_combined.json",
+    "roads": "acquisition_roads/osm_roads_raw.json",
+    "assets_sha256": "2fffc6d7932a2a6610a403546ed8ac1e01a4526ff6e21c3e0f1061df4b2319ea",
+    "roads_sha256": "d3eaeb2e431971e2d964d70a048c902401969f9e4b5d53656b4a5614bae13719",
+    "hazards": {
+      "10": {
+        "sha256": "4475e6cbec9140d8a5d899f34dfe1c3accbe3353fd645d6689b5eaaad2f0c4a6",
+        "crs": "EPSG:4326",
+        "transform": [
+          0.0008333333333333371,
+          0.0,
+          74.86462155173334,
+          0.0,
+          -0.0008333333333333367,
+          12.766724951626689,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "positive_cells": 27017,
+        "native_resolution_degrees": [
+          0.0008333333333333371,
+          0.0008333333333333367
+        ]
+      },
+      "25": {
+        "sha256": "8c6538a2951de243fbaa9aadb58d9a207f6eeaa26844d2f3376cf6a39b9d03f1",
+        "crs": "EPSG:4326",
+        "transform": [
+          0.0008333333333333371,
+          0.0,
+          74.86462155173334,
+          0.0,
+          -0.0008333333333333367,
+          12.766724951626689,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "positive_cells": 28853,
+        "native_resolution_degrees": [
+          0.0008333333333333371,
+          0.0008333333333333367
+        ]
+      },
+      "50": {
+        "sha256": "c8a17d66dc78225c99ce42b9bf73369426c51b56a78b34ca4c7de486b2624118",
+        "crs": "EPSG:4326",
+        "transform": [
+          0.0008333333333333371,
+          0.0,
+          74.86462155173334,
+          0.0,
+          -0.0008333333333333367,
+          12.766724951626689,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "positive_cells": 30301,
+        "native_resolution_degrees": [
+          0.0008333333333333371,
+          0.0008333333333333367
+        ]
+      }
+    }
+  },
+  "osm_source_metadata": {
+    "osm_roads_raw.json": {
+      "fetched_utc": "2026-10-19T13:17:42.229605+00:00",
+      "source_osm_base_timestamp": "2026-10-19T13:17:21Z",
+      "status": "success",
+      "comparison": {
+        "old_feature_count": 3248,
+        "new_feature_count": 3248,
+        "added_ids": [],
+        "removed_ids": [],
+        "tag_changed_ids": [],
+        "geometry_changed_ids": [],
+        "both_tag_and_geometry_changed_ids": [],
+        "unchanged_ids_count": 3248,
+        "comparison_note": "Version/timestamp/changeset/user metadata differences were excluded from edit detection."
+      }
+    }
+  },
+  "old_vs_refreshed_counts": {
+    "old_facilities": 1782,
+    "refreshed_facilities_screened": 2001,
+    "refreshed_facilities_before_screening": 2005,
+    "refreshed_quarantined": 4,
+    "old_roads": 1932,
+    "refreshed_roads": 1932
+  }
+}

@@ -1,0 +1,5 @@
+﻿osm_id,name,reason
+way/799586456,Lisa Parking Ground,name suggests parking
+node/7478208626,Lisa Hospital Parking,name suggests parking
+node/7522189559,government vetinary hospital,name or healthcare tag suggests veterinary/animal care
+node/8407781158,veterinary hospital,name or healthcare tag suggests veterinary/animal care

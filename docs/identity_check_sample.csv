@@ -1,0 +1,10 @@
+﻿osm_record_id,existing_osm_name,status,official_class,evidence_url,retrieved_timestamp,review_notes
+way/265076135,Comtrust Eye Hospital,official_directory_match,eye hospital,https://comtrusteyehospital.org/contact,2026-10-19T18:48:00+05:30,
+way/594950991,Meitra Hospital,official_directory_match,hospital,https://kozhikode.nic.in/en/public-utility-category/hospitals/,2026-10-19T18:48:00+05:30,
+way/316012382,Government General Hospital,official_directory_match,general hospital,https://kozhikode.nic.in/en/public-utility-category/hospitals/,2026-10-19T18:48:00+05:30,
+way/176640500,Aster MIMS Hospital,official_directory_match,multispecialty hospital,https://www.asterhospitals.in/hospitals/aster-mims-calicut,2026-10-19T18:48:00+05:30,
+way/832202891,Government Vocational Higher Secondary School Kuttichira,official_directory_match,"government school, level 1-12",https://sametham.kite.kerala.gov.in/publicView/schools/17024,2026-10-19T18:48:00+05:30,
+way/832520057,Sri Gujarathi Vidyalaya Higher Secondary School,official_directory_match,"unaided recognised school, level 5-12",https://sametham.kite.kerala.gov.in/publicView/schools/17019,2026-10-19T18:48:00+05:30,
+way/863550741,Sub Centre,official_identity_unresolved,unresolved; may be sub-centre rather than hospital,https://dhs.kerala.gov.in/wp-content/uploads/2025/04/List-of-Modern-Medicine-Institutions-2024-25.pdf,2026-10-19T18:48:00+05:30,
+way/880556333,Family Health Centre Maruthumkara,official_identity_unresolved,unresolved; family health centre is not equivalent to hospital,https://dhs.kerala.gov.in/wp-content/uploads/2025/04/List-of-Modern-Medicine-Institutions-2024-25.pdf,2026-10-19T18:48:00+05:30,
+way/999227901,Cheruvannur Government Homoeo Dispensary,official_identity_unresolved,unresolved; homoeopathic dispensary is not equivalent to hospital,https://dhs.kerala.gov.in/wp-content/uploads/2025/04/List-of-Modern-Medicine-Institutions-2024-25.pdf,2026-10-19T18:48:00+05:30,

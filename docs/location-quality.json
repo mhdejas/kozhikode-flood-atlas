@@ -1,0 +1,87 @@
+{
+  "feature_count": 78,
+  "counts_by_type": {
+    "gram_panchayat": 70,
+    "municipality": 7,
+    "corporation": 1
+  },
+  "valid_points": 78,
+  "within_own_polygon": 78,
+  "extent_wgs84": {
+    "min_longitude": 75.55243577,
+    "min_latitude": 11.14767992,
+    "max_longitude": 76.07350838,
+    "max_latitude": 11.7688551
+  },
+  "no_missing_ids": true,
+  "no_missing_names": true,
+  "source_polygon_count": 78,
+  "source_polygon_crs_assumed": "EPSG:4326 (GeoJSON coordinates; documented by source metadata)",
+  "analysis_crs": "EPSG:32643",
+  "output_crs": "EPSG:4326",
+  "official_count_check": {
+    "gram_panchayat": 70,
+    "municipality": 7,
+    "corporation": 1,
+    "counts_match": true
+  },
+  "official_identity_match_status": "not_verified_exactly",
+  "official_name_mismatches": {
+    "source_not_in_official": [
+      "Ayancheri",
+      "Balussery",
+      "Chakkittapara",
+      "Chemanchery",
+      "Chengottukavu",
+      "Cherode",
+      "Edacheri",
+      "Kadalundi",
+      "Karassery",
+      "Kayakkody",
+      "Kodanchery",
+      "Koodaranhi",
+      "Kuruvattoor",
+      "Kuttiadi",
+      "Maruthonkara",
+      "Narikunni",
+      "Purameri",
+      "Puthuppadi",
+      "Thiruvambadi",
+      "Tuneri",
+      "Ulliyeri Grama Panchayat",
+      "Vanimal"
+    ],
+    "official_not_in_source": [
+      "Ayancherry",
+      "Balusseri",
+      "Chakkittappara",
+      "Changottukavu",
+      "Chemancherry",
+      "Chorode",
+      "Edacherry",
+      "Kadalundy",
+      "Karasseri",
+      "Kayakkodi",
+      "Kodencherry",
+      "Koodaranji",
+      "Kuruvattur",
+      "Kuttaidy",
+      "Maruthomkara",
+      "Narikkuni",
+      "Puramery",
+      "Puthuppady",
+      "Thiruvampady",
+      "Thuneri",
+      "Ulliyeri",
+      "Vanimel"
+    ]
+  },
+  "method_counts": {
+    "centroid": 76,
+    "representative_point_inside_geometry": 2
+  },
+  "office_coordinates": {
+    "verified_reusable_comprehensive_set_found": false,
+    "action": "not used; area centres derived from polygons"
+  }
+}

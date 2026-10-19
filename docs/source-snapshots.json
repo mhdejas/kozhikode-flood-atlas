@@ -1,0 +1,27 @@
+{
+  "record_counts_by_snapshot": {
+    "original_settlement_context": 741,
+    "fresh_healthcare_tag_branch": 915,
+    "original_hospital_tag_fallback": 92,
+    "fresh_school": 2109
+  },
+  "snapshots": [
+    {
+      "file": "raw_schools.json",
+      "category": "fresh_school",
+      "osm_base": "2026-10-19T13:22:22Z",
+      "sha256": "603e4b3a3adb355e42d3e574db3ee000614b38586f833624b0fce823661bd6f2",
+      "count": 2109
+    },
+    {
+      "file": "raw_human_health.json",
+      "category": "fresh_healthcare_tag_branch",
+      "osm_base": "2026-10-19T13:22:22Z",
+      "sha256": "072727cc149fae49ba9973e9a443dd450c36bfcaf379912f269ce04ccf3c6061",
+      "count": 915
+    }
+  ],
+  "amenity_branch_success": false,
+  "healthcare_branch_scope": "The retained fresh response covers the healthcare-tag branch only; the corrected union refresh failed. A separately fetched amenity branch is merged when available.",
+  "source_dates_are_not_field_checks": true
+}
