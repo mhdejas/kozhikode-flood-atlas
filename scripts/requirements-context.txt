@@ -1,0 +1,8 @@
+# Optional dependencies used only to rebuild supplied terrain/waterway context.
+# The website itself runs without these packages.
+geopandas==1.0.1
+numpy==2.2.6
+Pillow==11.3.0
+pyproj==3.7.2
+rasterio==1.4.3
+shapely==2.1.1
